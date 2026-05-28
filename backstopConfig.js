@@ -39,7 +39,7 @@ const config = {
       ...basic,
       label: 'Small search bar data-qa_small',
       selectors: ['[data-qa="small"]'],
-      delay: 2000,
+      misMatchThreshold: 1.5,
     },
   ],
 };
