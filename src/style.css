@@ -35,10 +35,22 @@ body {
   margin-bottom: 20px;
 }
 
+.search--small {
+  height: 42px;
+}
+
 .search__label {
   position: relative;
   display: block;
   width: 100%;
+}
+
+.search__label--big {
+  height: 70px;
+}
+
+.search__label--small {
+  height: 42px;
 }
 
 .search__label::after {
@@ -58,8 +70,8 @@ body {
 }
 
 .search__label--small::after {
-  width: 12px;
-  height: 12px;
+  width: 11px;
+  height: 11px;
   top: 15px;
   left: 13px;
 }
